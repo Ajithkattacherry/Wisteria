@@ -45,8 +45,23 @@
                         <action selector="registerNewAccount:" destination="-1" eventType="touchUpInside" id="zdN-vd-ZtC"/>
                     </connections>
                 </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Code Poets. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xZJ-3E-t6k">
+                    <rect key="frame" x="20" y="443" width="281" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="4ZA-tr-hbZ"/>
+                        <constraint firstAttribute="width" constant="281" id="rKY-rR-kST"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.075520248548533994" green="0.51811533917298047" blue="0.79726957070707072" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xZJ-3E-t6k" secondAttribute="bottom" constant="16" id="Wag-c8-qkr"/>
+                <constraint firstItem="xZJ-3E-t6k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="WtF-2C-aJP"/>
+                <constraint firstAttribute="trailing" secondItem="xZJ-3E-t6k" secondAttribute="trailing" constant="19" id="mrH-Mk-4Yb"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>

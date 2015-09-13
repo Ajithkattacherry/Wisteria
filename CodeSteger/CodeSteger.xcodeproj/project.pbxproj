@@ -12,6 +12,14 @@
 		F80B180F1BA5A14400C21B0A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80B180D1BA5A14400C21B0A /* HomeViewController.xib */; };
 		F80B18141BA5AF4B00C21B0A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B18121BA5AF4B00C21B0A /* RegisterViewController.swift */; };
 		F80B18151BA5AF4B00C21B0A /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80B18131BA5AF4B00C21B0A /* RegisterViewController.xib */; };
+		F80B18181BA5E94B00C21B0A /* DataStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B18161BA5E94B00C21B0A /* DataStoreViewController.swift */; };
+		F80B18191BA5E94B00C21B0A /* DataStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80B18171BA5E94B00C21B0A /* DataStoreViewController.xib */; };
+		F80B181C1BA5E9B200C21B0A /* DataStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B181A1BA5E9B200C21B0A /* DataStoreTableViewCell.swift */; };
+		F80B181D1BA5E9B200C21B0A /* DataStoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80B181B1BA5E9B200C21B0A /* DataStoreTableViewCell.xib */; };
+		F80B18201BA5EA9C00C21B0A /* DataStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B181E1BA5EA9C00C21B0A /* DataStoreDetailViewController.swift */; };
+		F80B18211BA5EA9C00C21B0A /* DataStoreDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80B181F1BA5EA9C00C21B0A /* DataStoreDetailViewController.xib */; };
+		F80B18251BA5EB0400C21B0A /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B18231BA5EB0400C21B0A /* AddDataViewController.swift */; };
+		F80B18261BA5EB0400C21B0A /* AddDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80B18241BA5EB0400C21B0A /* AddDataViewController.xib */; };
 		F886B4021BA3412600D90FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886B4011BA3412600D90FC7 /* AppDelegate.swift */; };
 		F886B4051BA3412600D90FC7 /* CodeSteger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F886B4031BA3412600D90FC7 /* CodeSteger.xcdatamodeld */; };
 		F886B40C1BA3412600D90FC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F886B40B1BA3412600D90FC7 /* Images.xcassets */; };
@@ -30,11 +38,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F80B18091BA5A0B000C21B0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F80B18091BA5A0B000C21B0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		F80B180C1BA5A14400C21B0A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F80B180D1BA5A14400C21B0A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		F80B18121BA5AF4B00C21B0A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F80B18131BA5AF4B00C21B0A /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		F80B18161BA5E94B00C21B0A /* DataStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStoreViewController.swift; sourceTree = "<group>"; };
+		F80B18171BA5E94B00C21B0A /* DataStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataStoreViewController.xib; sourceTree = "<group>"; };
+		F80B181A1BA5E9B200C21B0A /* DataStoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStoreTableViewCell.swift; sourceTree = "<group>"; };
+		F80B181B1BA5E9B200C21B0A /* DataStoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataStoreTableViewCell.xib; sourceTree = "<group>"; };
+		F80B181E1BA5EA9C00C21B0A /* DataStoreDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStoreDetailViewController.swift; sourceTree = "<group>"; };
+		F80B181F1BA5EA9C00C21B0A /* DataStoreDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataStoreDetailViewController.xib; sourceTree = "<group>"; };
+		F80B18231BA5EB0400C21B0A /* AddDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
+		F80B18241BA5EB0400C21B0A /* AddDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDataViewController.xib; sourceTree = "<group>"; };
 		F886B3FC1BA3412600D90FC7 /* CodeSteger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSteger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F886B4001BA3412600D90FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F886B4011BA3412600D90FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,14 +101,28 @@
 		F80B18111BA5A21300C21B0A /* StoreViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F80B18161BA5E94B00C21B0A /* DataStoreViewController.swift */,
+				F80B18171BA5E94B00C21B0A /* DataStoreViewController.xib */,
+				F80B181A1BA5E9B200C21B0A /* DataStoreTableViewCell.swift */,
+				F80B181B1BA5E9B200C21B0A /* DataStoreTableViewCell.xib */,
+				F80B181E1BA5EA9C00C21B0A /* DataStoreDetailViewController.swift */,
+				F80B181F1BA5EA9C00C21B0A /* DataStoreDetailViewController.xib */,
 			);
 			path = StoreViewController;
+			sourceTree = "<group>";
+		};
+		F80B18221BA5EAD300C21B0A /* AddDataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F80B18231BA5EB0400C21B0A /* AddDataViewController.swift */,
+				F80B18241BA5EB0400C21B0A /* AddDataViewController.xib */,
+			);
+			path = AddDataViewController;
 			sourceTree = "<group>";
 		};
 		F886B3F31BA3412600D90FC7 = {
 			isa = PBXGroup;
 			children = (
-				F80B18091BA5A0B000C21B0A /* Default-568h@2x.png */,
 				F886B3FE1BA3412600D90FC7 /* CodeSteger */,
 				F886B4171BA3412700D90FC7 /* CodeStegerTests */,
 				F886B3FD1BA3412600D90FC7 /* Products */,
@@ -111,11 +141,13 @@
 		F886B3FE1BA3412600D90FC7 /* CodeSteger */ = {
 			isa = PBXGroup;
 			children = (
-				F80B18101BA5A21300C21B0A /* RegisterViewController */,
 				F80B18111BA5A21300C21B0A /* StoreViewController */,
+				F80B18221BA5EAD300C21B0A /* AddDataViewController */,
+				F80B18101BA5A21300C21B0A /* RegisterViewController */,
 				F80B180B1BA5A14400C21B0A /* HomeViewController */,
 				F886B4011BA3412600D90FC7 /* AppDelegate.swift */,
 				F886B40B1BA3412600D90FC7 /* Images.xcassets */,
+				F80B18091BA5A0B000C21B0A /* Default-568h@2x.png */,
 				F886B40D1BA3412600D90FC7 /* LaunchScreen.xib */,
 				F886B4031BA3412600D90FC7 /* CodeSteger.xcdatamodeld */,
 				F886B3FF1BA3412600D90FC7 /* Supporting Files */,
@@ -229,10 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80B18191BA5E94B00C21B0A /* DataStoreViewController.xib in Resources */,
+				F80B18211BA5EA9C00C21B0A /* DataStoreDetailViewController.xib in Resources */,
 				F886B40F1BA3412600D90FC7 /* LaunchScreen.xib in Resources */,
 				F80B18151BA5AF4B00C21B0A /* RegisterViewController.xib in Resources */,
 				F80B180F1BA5A14400C21B0A /* HomeViewController.xib in Resources */,
+				F80B181D1BA5E9B200C21B0A /* DataStoreTableViewCell.xib in Resources */,
 				F886B40C1BA3412600D90FC7 /* Images.xcassets in Resources */,
+				F80B18261BA5EB0400C21B0A /* AddDataViewController.xib in Resources */,
 				F80B180A1BA5A0B000C21B0A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80B18251BA5EB0400C21B0A /* AddDataViewController.swift in Sources */,
 				F886B4051BA3412600D90FC7 /* CodeSteger.xcdatamodeld in Sources */,
 				F886B4021BA3412600D90FC7 /* AppDelegate.swift in Sources */,
 				F80B180E1BA5A14400C21B0A /* HomeViewController.swift in Sources */,
+				F80B181C1BA5E9B200C21B0A /* DataStoreTableViewCell.swift in Sources */,
+				F80B18201BA5EA9C00C21B0A /* DataStoreDetailViewController.swift in Sources */,
+				F80B18181BA5E94B00C21B0A /* DataStoreViewController.swift in Sources */,
 				F80B18141BA5AF4B00C21B0A /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
