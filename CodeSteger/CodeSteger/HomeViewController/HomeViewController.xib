@@ -41,6 +41,9 @@
                     <state key="normal" title="New User ?">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="registerNewAccount:" destination="-1" eventType="touchUpInside" id="zdN-vd-ZtC"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.075520248548533994" green="0.51811533917298047" blue="0.79726957070707072" alpha="1" colorSpace="calibratedRGB"/>

@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  RegisterViewController.swift
 //  CodeSteger
 //
 //  Created by Ajith on 13/09/15.
@@ -8,21 +8,23 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.navigationController?.navigationBarHidden = true
+        self.navigationController?.navigationBarHidden = false
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = true
+    }
     /*
     // MARK: - Navigation
 
@@ -33,8 +35,4 @@ class HomeViewController: UIViewController {
     }
     */
 
-    @IBAction func registerNewAccount(sender: AnyObject) {
-        let registerViewController = RegisterViewController(nibName:"RegisterViewController", bundle:nil)
-        self.navigationController?.pushViewController(registerViewController, animated: true)
-    }
 }
