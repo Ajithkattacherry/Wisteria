@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F886B4021BA3412600D90FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886B4011BA3412600D90FC7 /* AppDelegate.swift */; };
+		F886B4051BA3412600D90FC7 /* CodeSteger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F886B4031BA3412600D90FC7 /* CodeSteger.xcdatamodeld */; };
+		F886B40C1BA3412600D90FC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F886B40B1BA3412600D90FC7 /* Images.xcassets */; };
+		F886B40F1BA3412600D90FC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F886B40D1BA3412600D90FC7 /* LaunchScreen.xib */; };
+		F886B41B1BA3412700D90FC7 /* CodeStegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886B41A1BA3412700D90FC7 /* CodeStegerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F886B4151BA3412700D90FC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F886B3F41BA3412600D90FC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F886B3FB1BA3412600D90FC7;
+			remoteInfo = CodeSteger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F886B3FC1BA3412600D90FC7 /* CodeSteger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSteger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F886B4001BA3412600D90FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F886B4011BA3412600D90FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F886B4041BA3412600D90FC7 /* CodeSteger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeSteger.xcdatamodel; sourceTree = "<group>"; };
+		F886B40B1BA3412600D90FC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F886B40E1BA3412600D90FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F886B4141BA3412700D90FC7 /* CodeStegerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeStegerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F886B4191BA3412700D90FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F886B41A1BA3412700D90FC7 /* CodeStegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeStegerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F886B3F91BA3412600D90FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F886B4111BA3412700D90FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F886B3F31BA3412600D90FC7 = {
+			isa = PBXGroup;
+			children = (
+				F886B3FE1BA3412600D90FC7 /* CodeSteger */,
+				F886B4171BA3412700D90FC7 /* CodeStegerTests */,
+				F886B3FD1BA3412600D90FC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F886B3FD1BA3412600D90FC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F886B3FC1BA3412600D90FC7 /* CodeSteger.app */,
+				F886B4141BA3412700D90FC7 /* CodeStegerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F886B3FE1BA3412600D90FC7 /* CodeSteger */ = {
+			isa = PBXGroup;
+			children = (
+				F886B4011BA3412600D90FC7 /* AppDelegate.swift */,
+				F886B40B1BA3412600D90FC7 /* Images.xcassets */,
+				F886B40D1BA3412600D90FC7 /* LaunchScreen.xib */,
+				F886B4031BA3412600D90FC7 /* CodeSteger.xcdatamodeld */,
+				F886B3FF1BA3412600D90FC7 /* Supporting Files */,
+			);
+			path = CodeSteger;
+			sourceTree = "<group>";
+		};
+		F886B3FF1BA3412600D90FC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F886B4001BA3412600D90FC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F886B4171BA3412700D90FC7 /* CodeStegerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F886B41A1BA3412700D90FC7 /* CodeStegerTests.swift */,
+				F886B4181BA3412700D90FC7 /* Supporting Files */,
+			);
+			path = CodeStegerTests;
+			sourceTree = "<group>";
+		};
+		F886B4181BA3412700D90FC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F886B4191BA3412700D90FC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F886B3FB1BA3412600D90FC7 /* CodeSteger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F886B41E1BA3412700D90FC7 /* Build configuration list for PBXNativeTarget "CodeSteger" */;
+			buildPhases = (
+				F886B3F81BA3412600D90FC7 /* Sources */,
+				F886B3F91BA3412600D90FC7 /* Frameworks */,
+				F886B3FA1BA3412600D90FC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeSteger;
+			productName = CodeSteger;
+			productReference = F886B3FC1BA3412600D90FC7 /* CodeSteger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F886B4131BA3412700D90FC7 /* CodeStegerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F886B4211BA3412700D90FC7 /* Build configuration list for PBXNativeTarget "CodeStegerTests" */;
+			buildPhases = (
+				F886B4101BA3412700D90FC7 /* Sources */,
+				F886B4111BA3412700D90FC7 /* Frameworks */,
+				F886B4121BA3412700D90FC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F886B4161BA3412700D90FC7 /* PBXTargetDependency */,
+			);
+			name = CodeStegerTests;
+			productName = CodeStegerTests;
+			productReference = F886B4141BA3412700D90FC7 /* CodeStegerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F886B3F41BA3412600D90FC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Code Poets";
+				TargetAttributes = {
+					F886B3FB1BA3412600D90FC7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F886B4131BA3412700D90FC7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F886B3FB1BA3412600D90FC7;
+					};
+				};
+			};
+			buildConfigurationList = F886B3F71BA3412600D90FC7 /* Build configuration list for PBXProject "CodeSteger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F886B3F31BA3412600D90FC7;
+			productRefGroup = F886B3FD1BA3412600D90FC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F886B3FB1BA3412600D90FC7 /* CodeSteger */,
+				F886B4131BA3412700D90FC7 /* CodeStegerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F886B3FA1BA3412600D90FC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F886B40F1BA3412600D90FC7 /* LaunchScreen.xib in Resources */,
+				F886B40C1BA3412600D90FC7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F886B4121BA3412700D90FC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F886B3F81BA3412600D90FC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F886B4051BA3412600D90FC7 /* CodeSteger.xcdatamodeld in Sources */,
+				F886B4021BA3412600D90FC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F886B4101BA3412700D90FC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F886B41B1BA3412700D90FC7 /* CodeStegerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F886B4161BA3412700D90FC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F886B3FB1BA3412600D90FC7 /* CodeSteger */;
+			targetProxy = F886B4151BA3412700D90FC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F886B40D1BA3412600D90FC7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F886B40E1BA3412600D90FC7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F886B41C1BA3412700D90FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F886B41D1BA3412700D90FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F886B41F1BA3412700D90FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodeSteger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F886B4201BA3412700D90FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodeSteger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F886B4221BA3412700D90FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodeStegerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSteger.app/CodeSteger";
+			};
+			name = Debug;
+		};
+		F886B4231BA3412700D90FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodeStegerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSteger.app/CodeSteger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F886B3F71BA3412600D90FC7 /* Build configuration list for PBXProject "CodeSteger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F886B41C1BA3412700D90FC7 /* Debug */,
+				F886B41D1BA3412700D90FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F886B41E1BA3412700D90FC7 /* Build configuration list for PBXNativeTarget "CodeSteger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F886B41F1BA3412700D90FC7 /* Debug */,
+				F886B4201BA3412700D90FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F886B4211BA3412700D90FC7 /* Build configuration list for PBXNativeTarget "CodeStegerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F886B4221BA3412700D90FC7 /* Debug */,
+				F886B4231BA3412700D90FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F886B4031BA3412600D90FC7 /* CodeSteger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F886B4041BA3412600D90FC7 /* CodeSteger.xcdatamodel */,
+			);
+			currentVersion = F886B4041BA3412600D90FC7 /* CodeSteger.xcdatamodel */;
+			path = CodeSteger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F886B3F41BA3412600D90FC7 /* Project object */;
+}
