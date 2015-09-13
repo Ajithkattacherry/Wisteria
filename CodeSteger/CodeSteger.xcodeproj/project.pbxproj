@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80B180A1BA5A0B000C21B0A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F80B18091BA5A0B000C21B0A /* Default-568h@2x.png */; };
+		F80B180E1BA5A14400C21B0A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B180C1BA5A14400C21B0A /* HomeViewController.swift */; };
+		F80B180F1BA5A14400C21B0A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80B180D1BA5A14400C21B0A /* HomeViewController.xib */; };
 		F886B4021BA3412600D90FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886B4011BA3412600D90FC7 /* AppDelegate.swift */; };
 		F886B4051BA3412600D90FC7 /* CodeSteger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F886B4031BA3412600D90FC7 /* CodeSteger.xcdatamodeld */; };
 		F886B40C1BA3412600D90FC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F886B40B1BA3412600D90FC7 /* Images.xcassets */; };
@@ -25,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F80B18091BA5A0B000C21B0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F80B180C1BA5A14400C21B0A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F80B180D1BA5A14400C21B0A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		F886B3FC1BA3412600D90FC7 /* CodeSteger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSteger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F886B4001BA3412600D90FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F886B4011BA3412600D90FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,9 +60,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F80B180B1BA5A14400C21B0A /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F80B180C1BA5A14400C21B0A /* HomeViewController.swift */,
+				F80B180D1BA5A14400C21B0A /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		F80B18101BA5A21300C21B0A /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		F80B18111BA5A21300C21B0A /* StoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StoreViewController;
+			sourceTree = "<group>";
+		};
 		F886B3F31BA3412600D90FC7 = {
 			isa = PBXGroup;
 			children = (
+				F80B18091BA5A0B000C21B0A /* Default-568h@2x.png */,
 				F886B3FE1BA3412600D90FC7 /* CodeSteger */,
 				F886B4171BA3412700D90FC7 /* CodeStegerTests */,
 				F886B3FD1BA3412600D90FC7 /* Products */,
@@ -75,6 +105,9 @@
 		F886B3FE1BA3412600D90FC7 /* CodeSteger */ = {
 			isa = PBXGroup;
 			children = (
+				F80B18101BA5A21300C21B0A /* RegisterViewController */,
+				F80B18111BA5A21300C21B0A /* StoreViewController */,
+				F80B180B1BA5A14400C21B0A /* HomeViewController */,
 				F886B4011BA3412600D90FC7 /* AppDelegate.swift */,
 				F886B40B1BA3412600D90FC7 /* Images.xcassets */,
 				F886B40D1BA3412600D90FC7 /* LaunchScreen.xib */,
@@ -153,6 +186,7 @@
 		F886B3F41BA3412600D90FC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Code Poets";
 				TargetAttributes = {
@@ -190,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F886B40F1BA3412600D90FC7 /* LaunchScreen.xib in Resources */,
+				F80B180F1BA5A14400C21B0A /* HomeViewController.xib in Resources */,
 				F886B40C1BA3412600D90FC7 /* Images.xcassets in Resources */,
+				F80B180A1BA5A0B000C21B0A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +246,7 @@
 			files = (
 				F886B4051BA3412600D90FC7 /* CodeSteger.xcdatamodeld in Sources */,
 				F886B4021BA3412600D90FC7 /* AppDelegate.swift in Sources */,
+				F80B180E1BA5A14400C21B0A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +436,7 @@
 				F886B4201BA3412700D90FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F886B4211BA3412700D90FC7 /* Build configuration list for PBXNativeTarget "CodeStegerTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +445,7 @@
 				F886B4231BA3412700D90FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
