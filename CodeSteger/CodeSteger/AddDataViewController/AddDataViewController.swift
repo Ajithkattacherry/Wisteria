@@ -12,7 +12,7 @@ class AddDataViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //self.navigationItem.title = "Add Store Items"
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +21,9 @@ class AddDataViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = false
+    }
     /*
     // MARK: - Navigation
 

@@ -33,6 +33,12 @@ class HomeViewController: UIViewController {
     }
     */
 
+    @IBAction func doSignIn(sender: AnyObject) {
+        let dataStoreViewController = DataStoreViewController(nibName:"DataStoreViewController", bundle:nil)
+        self.navigationController?.pushViewController(dataStoreViewController, animated: true)
+    }
+    
+
     @IBAction func registerNewAccount(sender: AnyObject) {
         let registerViewController = RegisterViewController(nibName:"RegisterViewController", bundle:nil)
         self.navigationController?.pushViewController(registerViewController, animated: true)

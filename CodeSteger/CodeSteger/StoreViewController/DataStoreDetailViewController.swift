@@ -14,6 +14,9 @@ class DataStoreDetailViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //Adding right edit button
+        let button = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Edit, target: self, action: "editStoreData")
+        self.navigationItem.setRightBarButtonItem(button, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +24,9 @@ class DataStoreDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = false
+    }
 
     /*
     // MARK: - Navigation
@@ -32,4 +38,7 @@ class DataStoreDetailViewController: UIViewController {
     }
     */
 
+    func editStoreData(){
+     println("Edit clicked!!!")
+    }
 }
